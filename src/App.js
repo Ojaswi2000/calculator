@@ -27,7 +27,7 @@ export default class App extends Component {
   }
 
   handleEquals=()=>{
-    
+
   }
 
   render() {
@@ -39,8 +39,8 @@ export default class App extends Component {
           </form>
 
           <div className="keypad">
-            <button onClick={this.handleClear}>Clear</button>            
-            <button onClick={this.handlebackspace}>C</button>
+            <button onClick={this.handleClear} className="clear">Clear</button>            
+            <button onClick={this.handlebackspace} className="backspace">C</button>
             <button name='/' onClick={this.handleClick}>&divide;</button>
             <button name='7' onClick={this.handleClick}>7</button>
             <button name='8' onClick={this.handleClick}>8</button>
@@ -56,7 +56,7 @@ export default class App extends Component {
             <button name='+' onClick={this.handleClick}>+</button>
             <button name='0' onClick={this.handleClick}>0</button>
             <button name='.' onClick={this.handleClick}>.</button>
-            <button name='=' onClick={this.handleEquals}>=</button>
+            <button name='=' onClick={this.handleEquals} className="equals">=</button>
           </div>
         </div>
       </>
