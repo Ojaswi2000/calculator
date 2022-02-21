@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
-
 export default class App extends Component {
+  state={
+    result:"",
+  }
   render() {
     return (
-      <div>App</div>
+      <>
+        <div className='container'>
+          <form>
+            <input type="text" value={this.state.result} />
+          </form>
+        </div>
+      </>
     )
   }
 }
