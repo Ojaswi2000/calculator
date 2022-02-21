@@ -73,6 +73,7 @@ input[type="text"]{
     background-color: #262834;
     color: white;
     font-weight: 500;
+    font-size: 26px;
 }
 
 input:focus,
@@ -87,4 +88,16 @@ button:active{
     color: black;
     font-size: 40px;
     font-weight: bold;
+}
+
+.keypad button:hover{
+    background-color: rgb(241, 212, 157);
+    transform: translate(4px);
+}
+
+h1{
+    font-size: 50px;
+}
+h1:hover{
+    color: orange;
 }

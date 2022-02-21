@@ -27,12 +27,16 @@ export default class App extends Component {
   }
 
   handleEquals=()=>{
-
+    var {result}=this.state;
+    this.setState({
+      result:eval(result)
+    });
   }
 
   render() {
     return (
       <>
+      <h1>My Calculator App</h1>
         <div className='container'>
           <form>
             <input type="text" value={this.state.result} />
