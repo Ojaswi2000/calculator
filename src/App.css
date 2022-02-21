@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{
+    font-family: 'Redressed', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
